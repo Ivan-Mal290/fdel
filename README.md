@@ -93,9 +93,18 @@ The Vite dev server proxies `/api` and share links under `/d/` to the backend.
 
 nginx serves the built UI and proxies the API on a single port, `8080`. It runs from the repository with its own config, so the Homebrew config is not touched and `sudo` is not needed.
 
+**macOS:**
 ```bash
 brew install nginx
+```
 
+**Ubuntu / Debian:**
+```bash
+sudo apt update
+sudo apt install nginx
+```
+
+```bash
 cd frontend
 npm run build
 cd ..
