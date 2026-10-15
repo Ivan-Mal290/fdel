@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.env
+storage/*
+!storage/.gitkeep
+frontend/node_modules/
+frontend/dist/
+tmp/
+.idea/
+*.pyc
+.DS_Store
+.idea/
+
